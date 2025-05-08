@@ -9,8 +9,11 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 init(autoreset=True)
 
 API_PROXIES = [
-    "https://damp-wind-eb32.slaungther1231.workers.dev/?url=https://api.solixdepin.net/api",
-    "https://testpoint1.vercel.app/proxy?url=https://api.solixdepin.net/api"
+        "https://vip1.slaungther1231.workers.dev/?url=https://api.solixdepin.net/api",
+    "https://us-proxy.slaungther1231.workers.dev/?url=https://api.solixdepin.net/api",
+    "https://jp-proxy.slaungther1231.workers.dev/?url=https://api.solixdepin.net/api",
+    "https://eu-proxy.slaungther1231.workers.dev/?url=https://api.solixdepin.net/api"
+
 ]
 
 DELAY_BETWEEN_TASKS = 2
